@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --text-color: #212121;
+  --text-color-accent: #2196f3;
+  --text-light-grey: #757575;
+  --effective-solutions-background: #2f303a;
+  --our-team-background: #f5f4fa;
+  --what-we-do-background: #e5e5e5;
+  --button-dark-blue: #188ce8;
+  --white: #ffffff;
+  --product-buttons-grey: #f5f4fa;
+  --header-border-color: #ececec;
+  --product-card-border: #eeeeee;
+}
+
+/* default styles for css */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+body a,
+link {
+  text-decoration: none;
+  color: inherit;
+}
+
+body ul,
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* end of default styles */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.container {
+  width: 1200px;
+}
+
+.section {
+  padding: 94px 0px;
+}
+
+.header {
+  border-bottom: 1px solid var(--header-border-color);
+}
+
+.header-div {
+  display: flex;
+  padding: 25px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-bar {
+  display: flex;
+  padding-top: 7px 0px;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  color: var(--text-color-accent);
+}
+
+.logo-header {
+  margin-right: 97px;
+}
+
+.nav-bar-link {
+  font-weight: 500;
+  line-height: 1.17;
+}
+
+.nav {
+  margin-right: 340px;
+}
+
+.port {
+  margin: 0px 69px 0px 53px;
+}
+
+.nav-bar-link:hover,
+.nav-bar-link:focus {
+  color: var(--text-color-accent);
+}
+
+.header-email-phone {
+  font-weight: 500;
+  line-height: 1.17;
+  color: var(--text-light-grey);
+}
+
+.header-email-phone:hover,
+.header-email-phone:focus {
+  color: var(--text-color-accent);
+}
+
+.header-email-phone-container {
+  display: flex;
+}
+
+.header-email-phone-li:not(:last-child) {
+  margin-right: 50px;
+}
+
+.effective-solutions {
+  background-color: var(--effective-solutions-background);
+}
+
+.effective-solutions-title {
+  color: var(--white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  margin-bottom: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.effective-solutions-button {
+  background-color: var(--text-color-accent);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.86;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+.effective-solutions button:hover,
+.effective-solutions button:focus {
+  background-color: var(--button-dark-blue);
+}
+
+.ef-container {
+  text-align: center;
+  padding: 106px 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.benefits-title {
+  font-weight: 700;
+  line-height: 1.17;
+  margin-bottom: 9.5px;
+}
+
+.benefits-text {
+  color: var(--text-light-grey);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.benefits-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.benefits-ul {
+  display: flex;
+  justify-content: center;
+}
+
+.benefits-text-container {
+  flex-basis: 270px;
+}
+
+.benefits-text-container:not(:last-child) {
+  margin-right: 30px;
+}
+
+.what-we-do-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.wwd-img:not(:last-child) {
+  margin-right: 30px;
+}
+
+.wwd-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.wwd-ul {
+  display: flex;
+  justify-content: center;
+}
+
+.our-team {
+  background-color: var(--our-team-background);
+}
+
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.our-team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.our-team-text {
+  color: var(--text-light-grey);
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.our-team-card {
+  background-color: var(--white);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.our-team-card:not(:last-child) {
+  margin-right: 30px;
+}
+
+.our-team-ul {
+  display: flex;
+  justify-content: center;
+}
+
+.our-team-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer {
+  background-color: var(--effective-solutions-background);
+  padding: 60px 0px;
+}
+
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71;
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--white);
+}
+
+.footer-div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.address-container {
+  margin-top: 10px;
+}
+
+.filter-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filter-ul {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.product-buttons {
+  background-color: var(--product-buttons-grey);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 26px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.product-buttons-middle {
+  padding: 6px 53px;
+}
+
+.current-button,
+.product-buttons:hover,
+.product-buttons:focus {
+  background-color: var(--text-color-accent);
+  color: var(--white);
+}
+
+.product-button-container:not(:last-child) {
+  margin-right: 8px;
+}
+
+.products-title {
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  margin-bottom: 4px;
+}
+
+.products-text {
+  color: var(--text-light-grey);
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.current-page {
+  color: var(--text-color-accent);
+}
+
+.product-description-container {
+  padding: 20px 24px;
+  border: 1px solid var(--product-card-border);
+  border-top: 0px;
+}
+
+.product-card-ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.product-card {
+  flex-basis: 370px;
+}
