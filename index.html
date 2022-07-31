@@ -13,14 +13,14 @@
   <body>
     <header class="header">
       <div class="header-div container">
-        <a class="logo logo-header" href="./">WebStudio</a>
-
         <nav class="nav">
+          <a class="logo logo-header" href="./">WebStudio</a>
+
           <ul class="nav-bar">
-            <li><a class="nav-bar-link current-page" href="./">Studio</a></li>
-            <li class="port">
+            <li class="nav-bar-item"><a class="nav-bar-link current-page" href="./">Studio</a></li>
+            <li class="nav-bar-item">
               <a class="nav-bar-link" href="./portfolio.html">Portfolio</a>
-            </li>
+            </li class="nav-bar-item">
             <li><a class="nav-bar-link" href="./">Contacts</a></li>
           </ul>
         </nav>
@@ -53,7 +53,7 @@
       </section>
 
       <section class="section">
-        <div class="benefits-container container">
+        <div class="container">
           <ul class="benefits-ul">
             <li class="benefits-text-container">
               <h3 class="benefits-title">ATTENTION TO DETAILS</h3>
@@ -90,9 +90,9 @@
         </div>
       </section>
 
-      <section class="section">
-        <div class="wwd-container container">
-          <h2 class="what-we-do-title">What we do</h2>
+      <section class="section section-no-top">
+        <div class="container">
+          <h2 class="section-title">What we do</h2>
 
           <ul class="wwd-ul">
             <li class="wwd-img">
@@ -123,8 +123,8 @@
       </section>
 
       <section class="our-team section">
-        <div class="our-team-container container">
-          <h2 class="our-team-title">Our Team</h2>
+        <div class="container">
+          <h2 class="section-title">Our Team</h2>
 
           <ul class="our-team-ul">
             <li class="our-team-card">
@@ -132,6 +132,7 @@
                 src="./images/ot1.jpg"
                 alt="first team member."
                 width="270"
+                class="our-team-img"
               />
               <h3 class="our-team-name">Игорь Демьяненко</h3>
               <p class="our-team-text">Product Designer</p>
@@ -142,6 +143,7 @@
                 src="./images/ot2.jpg"
                 alt="second team member."
                 width="270"
+                class="our-team-img"
               />
               <h3 class="our-team-name">Ольга Репина</h3>
               <p class="our-team-text">Frontend Developer</p>
@@ -152,6 +154,7 @@
                 src="./images/ot3.jpg"
                 alt="third team member."
                 width="270"
+                class="our-team-img"
               />
               <h3 class="our-team-name">Николай Тарасов</h3>
               <p class="our-team-text">Marketing</p>
@@ -162,6 +165,7 @@
                 src="./images/ot4.jpg"
                 alt="fourth team member."
                 width="270"
+                class="our-team-img"
               />
               <h3 class="our-team-name">Михаил Ермаков</h3>
               <p class="our-team-text">UI Designer</p>
@@ -172,10 +176,10 @@
     </main>
 
     <footer class="footer">
-      <div class="footer-div container">
+      <div class="container">
         <a class="logo logo-footer" href="./">WebStudio</a>
 
-        <address class="address-container">
+        <address>
           <ul>
             <li>
               <a
